@@ -24,9 +24,7 @@ public class TablistManager {
     }
 
     public Optional<Tablist> getTablist(Player player) {
-        return this.tablists.containsKey(player.getUniqueId())
-                ? Optional.of(this.tablists.get(player.getUniqueId()))
-                : Optional.empty();
+        return Optional.ofNullable(this.tablists.get(player.getUniqueId()));
     }
 
     public Map<UUID, Tablist> getTablists() {
