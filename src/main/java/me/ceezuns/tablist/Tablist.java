@@ -4,6 +4,7 @@ import com.google.common.base.Preconditions;
 import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.IntStream;
 
@@ -17,7 +18,7 @@ public class Tablist {
     public Tablist(Player player) {
         Preconditions.checkNotNull(player, "Player cannot be null");
         this.player = player;
-        this.slots = new ArrayList<>(MAX_TABLIST_SLOTS);
+        this.slots = Collections.synchronizedList(new ArrayList<>(MAX_TABLIST_SLOTS));
         IntStream.range(0, MAX_TABLIST_SLOTS).forEach(index -> this.slots.add(new TablistSlot(index)));
     }
 
