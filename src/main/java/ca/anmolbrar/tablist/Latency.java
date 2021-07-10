@@ -1,4 +1,4 @@
-package me.ceezuns.tablist;
+package ca.anmolbrar.tablist;
 
 /**
  * Values taken from https://wiki.vg/Protocol, under the Player Info section.

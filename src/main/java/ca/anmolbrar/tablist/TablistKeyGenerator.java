@@ -1,4 +1,4 @@
-package me.ceezuns.tablist;
+package ca.anmolbrar.tablist;
 
 import com.google.common.base.Preconditions;
 

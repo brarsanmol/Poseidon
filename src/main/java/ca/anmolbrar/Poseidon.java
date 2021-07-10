@@ -1,10 +1,10 @@
-package me.ceezuns;
+package ca.anmolbrar;
 
+import ca.anmolbrar.tablist.TablistManager;
 import com.google.common.base.Preconditions;
-import me.ceezuns.tablist.TablistKeyGenerator;
-import me.ceezuns.tablist.TablistListener;
-import me.ceezuns.tablist.TablistManager;
-import me.ceezuns.tablist.TablistTask;
+import ca.anmolbrar.tablist.TablistKeyGenerator;
+import ca.anmolbrar.tablist.TablistListener;
+import ca.anmolbrar.tablist.TablistTask;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Poseidon {

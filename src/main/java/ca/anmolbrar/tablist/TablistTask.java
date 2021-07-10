@@ -1,10 +1,10 @@
-package me.ceezuns.tablist;
+package ca.anmolbrar.tablist;
 
+import ca.anmolbrar.Poseidon;
 import com.comphenix.protocol.wrappers.EnumWrappers;
 import com.comphenix.protocol.wrappers.PlayerInfoData;
 import com.comphenix.protocol.wrappers.WrappedChatComponent;
-import me.ceezuns.Poseidon;
-import me.ceezuns.packet.WrapperPlayServerPlayerInfo;
+import ca.anmolbrar.packet.WrapperPlayServerPlayerInfo;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.stream.Collectors;

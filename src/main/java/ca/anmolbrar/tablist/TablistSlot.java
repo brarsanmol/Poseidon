@@ -1,9 +1,9 @@
-package me.ceezuns.tablist;
+package ca.anmolbrar.tablist;
 
+import ca.anmolbrar.Poseidon;
 import com.comphenix.protocol.wrappers.WrappedGameProfile;
 import com.comphenix.protocol.wrappers.WrappedSignedProperty;
 import com.google.common.base.Preconditions;
-import me.ceezuns.Poseidon;
 
 import java.util.UUID;
 

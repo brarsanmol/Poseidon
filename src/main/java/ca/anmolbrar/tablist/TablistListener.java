@@ -1,6 +1,6 @@
-package me.ceezuns.tablist;
+package ca.anmolbrar.tablist;
 
-import me.ceezuns.Poseidon;
+import ca.anmolbrar.Poseidon;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;

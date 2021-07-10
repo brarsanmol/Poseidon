@@ -1,14 +1,32 @@
 # Poseidon
-Modifying the tablist made easy!
+A library to easily modify the Minecraft tablist.
 
 ## Requirements
 * Java 8 or Greater
 * ProtocolLib 4.5.0
 * Spigot (1.8 or Greater)
 
+## Installation
+> Enter the following into your terminal.
+```shell
+git clone https://github.com/brarsanmol/Poseidon.git
+cd Poseidon
+mvn clean install
+```
+> Then add the following snippet into your pom.xml.
+```xml
+<dependency>
+    <groupId>ca.anmolbrar</groupId>
+    <artifactId>Poseidon</artifactId>
+    <version>1.2</version>
+    <type>jar</type>
+    <scope>compile</scope>
+</dependency>
+```
+
 ## Usage
 
-> Main Class
+> The code sample below is a basic implementation to show you how to get up and running with the library.
 ```java
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -42,7 +60,6 @@ public final class PoseidonPlugin extends JavaPlugin {
 }
 ```
 
-> Updating The Tablist
 ```java
 import org.bukkit.scheduler.BukkitRunnable;
 
@@ -70,7 +87,7 @@ public final class PoseidonTablistTask extends BukkitRunnable {
 ![Result of Usage Code](https://i.imgur.com/w4SYJVV.png)
 
 ## Contributing
-Have a cool feature that you want to add, or a bug fix? Feel free to open a pull request or an issue!
+Have a feature that you want to add, or a bug fix? Feel free to open a pull request or an issue!
 
 ## Upcoming Features
 * Support 1.7.10.
@@ -80,8 +97,8 @@ Have a cool feature that you want to add, or a bug fix? Feel free to open a pull
 * Provide default tablist.
 * Javadocs
 
-## Authors
-* Anmol Brar (*ceezuns*)
+## Contributors
+* [Anmol Brar](https://www.github.com/brarsanmol)
 
 ## License
-* MIT
+* [MIT](LICENSE.md)
